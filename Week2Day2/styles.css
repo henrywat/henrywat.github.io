@@ -1,0 +1,22 @@
+h1 {
+    color: brown;
+}
+
+header {
+    background-color: coral;
+}
+
+#oneofs {
+    background-image: url("download.jpeg");
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: rgb(255, 0, 162);
+    text-decoration:underline;
+}
+
+#oneofp {
+    text-transform: uppercase;
+}
