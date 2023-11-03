@@ -1,0 +1,30 @@
+My final assignment is apply the HTML and CSS skills to create a multi-page themed website. 
+The website should incorporate fundamental HTML elements and demonstrate deeply understanding of basic design principles.
+The website will be structured around a common theme related to alcohol, cheerful and friendship.
+the website should have at least five pages like "Home," "About," "Services," "Gallery," and "Contact."
+Apply basic design principles to make the website visually appealing.
+Utilize CSS for styling use an external stylesheet.
+Each page should have a unique layout, but they should all follow a consistent design theme.
+Include text, images, and videos related to your chosen theme.
+Utilize headings, paragraphs,
+lists (both ordered and unordered) and other HTML elements to structure the content effectively.
+Create a navigation bar (navbar) with links to all the pages on the website. This should be consistent across all pages.
+Implement both internal links (links that navigate within your website) and external links (links to external websites or resources).
+For example, your "About" page can contain internal links to other pages within your site, while your "References" page can contain external links to relevant sources.
+Incorporate at least one video on one of your web pages. You can embed a video from YouTube or another platform that provides embed codes.
+Include images on various pages. Use the HTML <img> element to display these images. 
+Ensure that your HTML follows proper structure with appropriate use of HTML tags like <html>, <head>, and <body>.
+Validate your HTML code using an HTML validator like the W3C Markup Validation Service to ensure it adheres to web standards.
+Implement additional features, such as forms, if you are comfortable doing so.
+Make your website responsive to different screen sizes using media queries in your CSS.
+Name of the website is 'Boozy Henry' it is a bar actually.
+Home pages: "Embrace the world of boozy delights as you indulge in the vibrant and captivating realm of booze drinks", display 5 highlighted drinks, CTA for special drink.
+
+About pages tells the history of the bar
+
+Services page describe the environment and professional Service
+
+Gallery pages is a photo galley with lot of photos
+
+contact pages is an email form for enquiry, bar location and contact information.
+
