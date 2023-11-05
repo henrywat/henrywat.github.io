@@ -2,10 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <title>Boozy Henry</title>
 </head>
 <body>
-    <h1>About Us</h1>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top  w3-center w3-dark-grey" id="topBar">
+        <div class="w3-bar" id="navbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-red w3-text-sand"><i class="fa fa-home"> HOME</i></a>
+            <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-red w3-text-sand"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="menu.html" class="w3-bar-item w3-button w3-hide-small w3-hover-red w3-text-sand"><i class="fa fa-file-text"></i> MENU</a>
+            <a href="gallery.html" class="w3-bar-item w3-button w3-hide-small w3-hover-red w3-text-sand"><i class="fa fa-camera"></i> GALLERY</a>
+            <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-red w3-text-sand"><i class="fa fa-envelope"></i> CONTACT</a>
+        </div>
+
+        <!-- navBar on phone screens -->
+        <div id="navbarsmall" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="menu.html" class="w3-bar-item w3-button" onclick="toggleFunction()">MENU</a>
+            <a href="gallery.html" class="w3-bar-item w3-button" onclick="toggleFunction()">GALLERY</a>
+            <a href="contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="pagetitle w3-display-container w3-opacity-min">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-black w3-xlarge w3-wide w3-animate-opacity">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </div>
+    </div>
+
+    
+    <!-- ABOUT -->
+    <div class="w3-content w3-container w3-padding-64">
+        <h1 class="w3-center w3-text-indigo">Boozy Henry Boozy Booze</h1>
+        <img class="aboutimg1" src="img/d10.jpeg" alt="Boozy Henry" title="Boozy Henry">
+        <p style="margin: 40px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. </p>
+        <br>
+        <img class="aboutimg2" src="img/d7.jpeg" alt="Booze Drink" title="Booze Drink">
+        <p style="margin: 40px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-brown w3-opacity w3-padding-16">
+        <p>
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </p>
+        <p>Copyright 2023 by Boozy Henry. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+    // Change style of navbar on scroll
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        var navbar = document.getElementById("navbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            topBar.className = "w3-top  w3-center"
+            navbar.className = "w3-bar w3-card w3-animate-top w3-dark-grey";
+        } else {
+            topBar.className = "w3-top  w3-center w3-dark-grey"
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-dark-grey", "");
+        }
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+        var x = document.getElementById("navbarsmall");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    </script>
+
 </body>
 </html>
