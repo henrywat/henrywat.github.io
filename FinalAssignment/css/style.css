@@ -1,47 +1,63 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Inconsolata", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Inconsolata", sans-serif;
+}
+
 body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
 }
 
-/* Create a Parallax Effect */
 .heroimg, .newsbgimg {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* First image (Logo. Full height) */
 .heroimg {
-  background-image: url('../img/home.jpg');
-  min-height: 100%;
-  filter:saturate(120%);
+    background-image: url('../img/home.jpg');
+    min-height: 100%;
+    filter:saturate(120%);
   
 }
 
-/* Third image (Contact) */
 .newsbgimg {
-  background-image: url('../img/newsletter.jpeg');
-  min-height: 400px;
+    background-image: url('../img/newsletter.jpeg');
+    min-height: 400px;
 }
 
 .pagetitle {
-  background-image: url('../img/home.jpg');
-  min-height: 20%;
-  filter:saturate(120%);
-  background-position: center center;
-  background-repeat: no-repeat;
+    background-image: url('../img/home.jpg');
+    min-height: 20%;
+    filter:saturate(120%);
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-.w3-wide {letter-spacing: 8px;}
-.w3-hover-opacity {cursor: pointer;}
+.w3-wide {
+  letter-spacing: 8px;
+}
 
-/* Turn off parallax scrolling for tablets and phones */
+.w3-hover-opacity { 
+  cursor: pointer;
+}
+
+.aboutimg1 {
+  width: min-content;
+  margin: 20px;
+  float: left;
+}
+
+.aboutimg2 {
+  width: min-content;
+  margin: 20px;
+  float: right;
+}
+
 @media only screen and (max-device-width: 1600px) {
-  .heroimg, .newsbgimg {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
+    .heroimg, .newsbgimg {
+      background-attachment: scroll;
+      min-height: 400px;
+    }
 }
