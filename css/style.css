@@ -8,6 +8,10 @@ body, html {
     line-height: 1.8;
 }
 
+a:hover {
+    color: red;
+}
+
 .heroimg, .newsbgimg {
     background-attachment: fixed;
     background-position: center;
@@ -19,7 +23,6 @@ body, html {
     background-image: url('../img/home.jpg');
     min-height: 100%;
     filter:saturate(120%);
-  
 }
 
 .newsbgimg {
@@ -57,8 +60,8 @@ body, html {
 }
 
 .googlemap {
-  width: 640px;
-  height: 480px;
+    width: 640px;
+    height: 480px;
 }
 
 @media only screen and (max-width: 1600px) {
