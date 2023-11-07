@@ -1,0 +1,77 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Inconsolata", sans-serif;
+}
+
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+a:hover {
+    color: red;
+}
+
+.heroimg, .newsbgimg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroimg {
+    background-image: url('../img/home.jpg');
+    min-height: 100%;
+    filter:saturate(120%);
+}
+
+.newsbgimg {
+    background-image: url('../img/newsletter.jpeg');
+    min-height: 400px;
+}
+
+.pagetitle {
+    background-image: url('../img/home.jpg');
+    min-height: 20%;
+    filter:saturate(120%);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.w3-wide {
+    letter-spacing: 8px;
+    font-weight: bolder;
+}
+
+.w3-hover-opacity { 
+    cursor: pointer;
+}
+
+.aboutimg1 {
+    width: min-content;
+    margin: 20px;
+    float: left;
+}
+
+.aboutimg2 {
+    width: min-content;
+    margin: 20px;
+    float: right;
+}
+
+.googlemap {
+    width: 640px;
+    height: 480px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .heroimg, .newsbgimg {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+
+    .googlemap {
+        width: 400px;
+        height: 300px;
+    }
+}
