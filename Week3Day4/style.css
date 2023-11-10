@@ -10,7 +10,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     background: linear-gradient()
-     radial-gradient(circle, blue, yellow, red);
+    radial-gradient(circle, blue, yellow, red);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9;
     text-align: center;
     color: #fff;
