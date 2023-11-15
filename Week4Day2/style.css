@@ -1,0 +1,50 @@
+:root {
+    --title-bg-color: yellow;
+    --card-bg-color: #f4f4f4;
+}
+
+.card-title {
+    background-color: var(--title-bg-color);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+.card:hover {
+    background-color: #eaeaea;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    background-color: var(--title-bg-color);
+    background-clip: padding-box;
+}
+
+.card-title {
+    background-color: var(--title-bg-color);
+    background-clip: border-box;
+}
+
+.card-description {
+    background-color: var(--title-bg-color);
+    background-clip: padding-box;
+}
+
+.card-img {
+    background-color: var(--title-bg-color);
+    background-clip: content-box;
+}
