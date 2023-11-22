@@ -1,0 +1,16 @@
+// by Henry Wat
+
+// 1. Print out the value "Hello World" in the console
+console.log("Hello World");
+
+// 2 Declare a constant variable MAX with the value 57
+const MAX = 57;
+
+// 3. Set another variable actual to MAX - 13
+let actual = MAX - 13;
+
+// 4. Set another variable percentage to actual / by MAX
+let percentage = (actual / MAX).toFixed(2);
+
+// 5. Print out the statement that should be exactly: "The percentage is 0.77"
+console.log("The percentage is " + percentage);
