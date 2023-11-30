@@ -1,3 +1,4 @@
+// CCC - Web Design and Development with Co-op / Javascript for Web
 // by Henry Wat
 
 // 1. Print out the value "Hello World" in the console
