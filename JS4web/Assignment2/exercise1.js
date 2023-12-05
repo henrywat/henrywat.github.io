@@ -1,3 +1,6 @@
+// CCC - Web Design and Development with Co-op / Javascript for Web
+// by Henry Wat - Assignment 2 exercise 1
+
 // Function showUsersInfo(array)
 // takes an array of users and prints out the user list and the total number of users
 const showUsersInfo = (array) => {
@@ -5,7 +8,7 @@ const showUsersInfo = (array) => {
     console.log(`There are ${array.length} users on the list`)
 }
 
-// Create an array named users
+// Create an array named users "John", "William", "David", "Jenny", "Hannah"
 const users = ["John", "William", "David", "Jenny", "Hannah"]
 
 // Print out "User list: John,William..."
