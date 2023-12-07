@@ -32,3 +32,12 @@ const showFruites = (array) => {
 // and call showFruites function
 const fruits = ["apple", "orange", "banana", "mango"];
 showFruites(fruits);
+
+// how to implement this using for ... of loop and array.foreach()?
+fruits.forEach(function (fruit) {
+    console.log(fruit);
+});
+for (let fruit of fruits) {
+    console.log(fruit);
+    
+}
