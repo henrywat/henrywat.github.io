@@ -1,5 +1,7 @@
-// CCC - Web Design and Development with Co-op / Javascript for Web
-// by Henry Wat - Assignment 2 exercise 2
+/******************************************************************
+    CCC - Web Design and Development with Co-op / Javascript for Web
+    by Henry Wat - Assignment 2 exercise 2
+******************************************************************/
 
 // Function: Capitalized the first letter of a string and return the result
 const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1).toLowerCase(); // assume not empty string or null input

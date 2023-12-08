@@ -1,5 +1,7 @@
-// CCC - Web Design and Development with Co-op / Javascript for Web
-// by Henry Wat - Assignment 2 exercise 3
+/******************************************************************
+    CCC - Web Design and Development with Co-op / Javascript for Web
+    by Henry Wat - Assignment 2 exercise 3
+******************************************************************/
 
 // Follow the instruction in lecuture-3-4.pdf and create a similar dynamic note list for JavaScript notes
 let container = document.querySelector(".js-notes-container");

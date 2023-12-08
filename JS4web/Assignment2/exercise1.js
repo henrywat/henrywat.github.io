@@ -1,5 +1,7 @@
-// CCC - Web Design and Development with Co-op / Javascript for Web
-// by Henry Wat - Assignment 2 exercise 1
+/******************************************************************
+    CCC - Web Design and Development with Co-op / Javascript for Web
+    by Henry Wat - Assignment 2 exercise 1
+******************************************************************/
 
 // Function showUsersInfo(array)
 // takes an array of users and prints out the user list and the total number of users
