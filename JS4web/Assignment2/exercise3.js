@@ -46,4 +46,4 @@ for (let noteObj of JS_NOTES) {
 }
 
 container.appendChild(js_notes_title_ul);
-console.log("end of program")
+console.log("end of exercise 3")
