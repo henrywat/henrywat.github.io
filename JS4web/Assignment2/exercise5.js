@@ -29,3 +29,5 @@ const noteContents = notes.map(note => console.log(`[${note.type}]: "${note.cont
 // Step 5: Create a variable named mostVotedNote which assign the note object with most number of votes. Print out result in console.
 const mostVotedNote = notes.reduce((prev, current) => (prev.votes > current.votes) ? prev : current);
 console.log(`The top voted note is "${mostVotedNote.content}"`);
+
+console.log("end of program")

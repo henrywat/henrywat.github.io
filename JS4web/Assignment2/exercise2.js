@@ -43,3 +43,5 @@ for (let fruit of fruits) {
     console.log(fruit);
     
 }
+
+console.log("end of program")

@@ -50,5 +50,4 @@ button.addEventListener("click", () => {
     input.focus();
 })
 
-console.log("end of exercise 4")
-// end of exercise 4
+console.log("end of program")

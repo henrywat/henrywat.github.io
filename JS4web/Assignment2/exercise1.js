@@ -34,3 +34,5 @@ users.push("Finn")
 //console.log(`User list: ${users.toString()}`)
 //console.log(`There are ${users.length} users on the list`)
 showUsersInfo(users)
+
+console.log("end of program")
